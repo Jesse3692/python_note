@@ -1,6 +1,8 @@
 # python_note
 
-## python知识
+[面试题](https://gitee.com/Jesse3692/python_note/blob/master/%E9%9D%A2%E8%AF%95/gitbook_%E9%99%88%E7%A5%A5%E5%AE%89.md)
+
+## python基础知识
 
 [python2与python3的区别](https://gitee.com/Jesse3692/python_note/blob/master/docs/python2%E4%B8%8Epython3%E7%9A%84%E5%8C%BA%E5%88%AB.md)
 [面向对象中的一些内容](https://gitee.com/Jesse3692/python_note/blob/master/docs/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.md)
