@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+grpcio-tools = "1.37.0"
 
 [dev-packages]
 redis = "*"
