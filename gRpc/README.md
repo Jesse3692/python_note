@@ -25,3 +25,9 @@ python greeter_server.py
 # 运行客户端
 python greeter_client.py
 ```
+
+生成代码：
+
+``` sh
+python -m grpc_tools.protoc -I ./ --python_out . --grpc_python_out . ./helloworld.proto
+```
