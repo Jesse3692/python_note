@@ -20,6 +20,7 @@ pipenv install grpcio-tools == 1.37.0
 运行示例代码：
 
 ``` sh
+cd gRpc/examples/helloworld
 # 运行服务端
 python greeter_server.py
 # 运行客户端
@@ -29,5 +30,6 @@ python greeter_client.py
 生成代码：
 
 ``` sh
+cd gRpc/examples/helloworld
 python -m grpc_tools.protoc -I ./ --python_out . --grpc_python_out . ./helloworld.proto
 ```
