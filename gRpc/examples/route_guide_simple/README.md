@@ -2,7 +2,7 @@
 
 这是一个简化版的route_guide，本文参考自[gRpc官方文档](https://grpc.io/docs/languages/python/basics/)，略有删改，水平有限翻译不对的地方敬请见谅。
 
-[完整代码地址](https://gitee.com/Jesse3692/python_note/blob/master/gRpc/examples/route_guide_simple)
+[完整代码地址](https://gitee.com/Jesse3692/python_note/tree/master/gRpc/examples/route_guide_simple)
 
 ``` sh
 # 生成_pb2.py和_pb2_grpc.py文件
