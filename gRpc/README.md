@@ -33,3 +33,30 @@ python greeter_client.py
 cd gRpc/examples/helloworld
 python -m grpc_tools.protoc -I ./ --python_out . --grpc_python_out . ./helloworld.proto
 ```
+
+
+
+## 定义服务
+
+
+
+定义服务：
+
+```protobuf
+service RouteGuide {
+   // (Method definitions not shown)
+}
+```
+
+在服务中定义rpc方法：
+
+```protobuf
+// Obtains the feature at a given position.
+rpc GetFeature(Point) returns (Feature) {}
+```
+
+
+
+服务方法：
+
+- 
