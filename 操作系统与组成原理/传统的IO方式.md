@@ -18,7 +18,7 @@ Socket.send(socket, buf, len);
 5. CPU将应用缓冲区中数据拷贝到socket缓冲区；
 6. DMA控制器把数据从socket缓冲区拷贝到网卡，上下文从内核态转为用户态，write()返回；
 
-![传统的IO方式](https://gitee.com/Jesse3692/python_note/blob/master/asserts/imgs/io1.jpeg)
+![传统的IO方式](../asserts/imgs/io1.jpeg)
 
 ## 什么是用户态、内核态？上下文切换有是什么呢？
 
