@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "/home/jesse/.local/share/virtualenvs/python_note-Tv7vRn3Q/bin/python"
+    "python.pythonPath": "/home/jesse/.local/share/virtualenvs/python_note-Tv7vRn3Q/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true
 }
