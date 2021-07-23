@@ -1,5 +1,13 @@
 # dict字典
 
+## 字典的常用操作
+
+访问字典的值：dict.get(key, None),这样不会报错
+
+返回删除的key所对应的value值：value = dict.pop(key)
+
+删除单个元素：del dict[key]
+
 ## 特殊用法
 
 ### 比较两个字典中的内容
