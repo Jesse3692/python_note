@@ -29,7 +29,14 @@ SELECT @@sql_mode;
 SELECT @@GLOBAL.sql_mode;
 ```
 
+  ### 插入并更新数据
+
+  ```sql
+INSERT INTO table (a,b,c) VALUES (1,2,3)  
+  ON DUPLICATE KEY UPDATE c=c+1;  
   
+UPDATE table SET c=c+1 WHERE a=1;
+  ```
 
 ### 数据表
 
