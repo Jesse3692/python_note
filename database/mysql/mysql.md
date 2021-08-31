@@ -6,7 +6,7 @@
 
 - 创建数据库：`create database [if not exists] db_name [DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci]`;
 
-- 查看已有的数据库：show database;
+- 查看已有的数据库：SHOW DATABASES;
 
 - 使用数据库：use db_name;
 
@@ -15,6 +15,19 @@
 - 修改数据库编码：alter database db_name character set utf8;
 
 - 删除数据库：drop database [if not exists] db_name;
+
+### 关闭ONLY_FULL_GROUP_BY
+
+```sql
+set @@GLOBAL.sql_mode='';
+set sql_mode ='STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION';
+ 
+-- 默认关掉ONLY_FULL_GROUP_BY！
+ 
+-- 这个时候 在用工具select 一下
+SELECT @@sql_mode;
+SELECT @@GLOBAL.sql_mode;
+```
 
   
 
