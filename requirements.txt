@@ -1,0 +1,6 @@
+pymysql==1.0.2
+SQLAlchemy==1.4.27
+grpcio-tools==1.37.0
+pylint
+ipykernel
+autopep8
