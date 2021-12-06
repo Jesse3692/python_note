@@ -10,4 +10,4 @@ selector=etree.HTML(源码) #将源码转化为能被XPath匹配的格式
 selector.xpath(表达式) #返回为一列表
 ```
 
-![](https://i.loli.net/2021/07/24/sLzO6hQr3JcF7eZ.png)
+![](https://gitee.com/Jesse3692/vnote_image/raw/master/428632814228627.png)
