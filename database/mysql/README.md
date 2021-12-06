@@ -2,6 +2,14 @@
 
 ## MySQL 数据库
 
+连接mysql
+
+```shell
+.\mysql.exe -h 212.64.7.6 -P 3306 -u root -p
+```
+
+
+
 ## Mongodb 数据库
 
 > MongoDB shell version v3.4.19
