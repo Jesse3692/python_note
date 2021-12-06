@@ -45,67 +45,6 @@ DBNAME 可用 db 或数据库名替代：
 * DBNAME.system.users 列出访问数据库的用户
 * DBNAME.system.sources 列出服务器信息
 
-#### 数据库的创建和销毁
-
-**创建数据库**：
-
-* `use mydb` 创建数据库
-* `db` 查看当前连接的数据库
-* `show dbs` 查看所有的数据库
-
-**销毁数据库**：
-
-* `db.dropDatabase()`
-
-#### 集合的创建和销毁
-
-**创建集合**：
-
-* `db.createCollection("users")`创建集合
-* `show collections`查看创建的集合
-
-**删除集合**：
-
-* `db.users.drop()`删除集合
-
-#### 向集合中插入数据
-
-可以在插入数据时同时创建集合
-
-**使用 insert（）**：
-
-``` js
-db.users.insert([{
-        _id: 1,
-        name: "jim",
-        email: "jim@qq.com"
-    },
-    {
-        _id: 2,
-        name: "tom",
-        email: "tom@qq.com"
-    },
-]);
-```
-
-![image-20200705155947899](https://i.loli.net/2020/07/05/EeyiqnYp1fJ94Vb.png)
-
-**使用 save（）**：
-
-``` js
-db.users.save({
-    _id: 2,
-    name: "tom",
-    email: "tom1@qq.com"
-});
-```
-
-![image-20200705160021606](https://i.loli.net/2020/07/05/8iDqzcwR59nbSEW.png)
-
-**insert 和 save 的区别**：
-
-* insert 只能插入一条新的记录无法插入一条已经存在的记录
-* save 不仅可以保存一条新纪录也可以更新原纪录
 
 ### 数据查询
 
