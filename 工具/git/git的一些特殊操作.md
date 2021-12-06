@@ -27,6 +27,8 @@ git push origin -f
 
 ## 使用git large file storage
 
+github免费仓库有限额，gitee只能企业用户使用
+
 1. 安装git命令行扩展，下载[git-lfs](https://github.com/git-lfs/git-lfs/releases/download/v3.0.2/git-lfs-windows-v3.0.2.exe)windows版
 2. 为账户设置git lfs `git lfs install`
 3. 添加git lfs管理的文件类型`git lfs track "*.zip"`
