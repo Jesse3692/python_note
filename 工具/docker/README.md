@@ -1,6 +1,6 @@
-# docker for win 的使用
+# docker的使用
 
-## 遇到的问题
+## docker for windows 遇到的问题
 
 docker 每次开机启动不起来也没法关闭
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0531/091523_5fe64ef0_1548957.png "屏幕截图.png")
