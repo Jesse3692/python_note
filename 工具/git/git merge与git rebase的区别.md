@@ -4,7 +4,7 @@
 
 git merge合并两个分支时会产生一个特殊的提交记录，他有两个父节点。
 
-![git_merge](../../asserts/imgs/git_merge.png)
+![](https://gitee.com/Jesse3692/vnote_image/raw/master/76861611214201.png)
 
 ## git rebase
 
@@ -16,28 +16,25 @@ rebase相对于merge的优势：可以创造更线性的提交历史。
 
 我们现在有两个分支，一个是master另一个是bugFix：
 
-![git_rebase_1](../../asserts/imgs/git_rebase_1.png)
-
+![](https://gitee.com/Jesse3692/vnote_image/raw/master/259701611223148.png)
 现在在bugFix分支上进行，rebase操作
 
 ``` shell
 git rebase master
 ```
 
-![git_rebase_2](../../asserts/imgs/git_rebase_2.png)
-
+![](https://gitee.com/Jesse3692/vnote_image/raw/master/422441611216033.png)
 然后切换到master分支
 
 ``` shell
 git checkout master
 ```
 
-![git_rebase_3](../../asserts/imgs/git_rebase_3.png)
-
+![](https://gitee.com/Jesse3692/vnote_image/raw/master/513721611216642.png)
 再次进行rebase操作
 
 ``` shell
 git rebase bugFix
 ```
 
-![git_rebase_4](../../asserts/imgs/git_rebase_4.png)
+![](https://gitee.com/Jesse3692/vnote_image/raw/master/595611611243597.png)
