@@ -103,3 +103,6 @@ driver.close()
 driver.quit()
 ```
 
+> 参考资料
+> [Python之Selenium+PhantomJS使用详解](https://www.jianshu.com/p/33e295e86319)
+
