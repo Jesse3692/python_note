@@ -1,4 +1,4 @@
-"""标准库tracemalloc，统计内存占用"""
+"""标准库tracemalloc 跟踪内存分配"""
 import tracemalloc
 
 # 开始跟踪内存分配
