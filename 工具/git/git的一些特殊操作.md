@@ -35,3 +35,8 @@ github免费仓库有限额，gitee只能企业用户使用
 4. 确保gitattributes被跟踪`git add .gitattributes`
 5. 正常的提交推送就可以
 
+## 拉取指定标签的代码
+
+```shell
+git clone -b v5.4 --depth=1 https://github.com/torvalds/linux.git
+```
