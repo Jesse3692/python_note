@@ -40,3 +40,10 @@ github免费仓库有限额，gitee只能企业用户使用
 ```shell
 git clone -b v5.4 --depth=1 https://github.com/torvalds/linux.git
 ```
+
+## 推送失败，提示shallow update not allowed
+
+```shell
+git remote add ubuntu git://kernel.ubuntu.com/ubuntu/ubuntu-focal.git
+git fetch --unshallow ubuntu
+```
