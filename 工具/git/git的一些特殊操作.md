@@ -47,3 +47,12 @@ git clone -b v5.4 --depth=1 https://github.com/torvalds/linux.git
 git remote add ubuntu git://kernel.ubuntu.com/ubuntu/ubuntu-focal.git
 git fetch --unshallow ubuntu
 ```
+
+## 推送失败，提示fatal: the remote end hung up unexpectedly
+
+注意：修改之后并不一定能成功推送（ubuntu20.04源码 3.3G推送gitee失败）
+
+```shell
+git config --global http.postBuffer 1048576000
+```
+
