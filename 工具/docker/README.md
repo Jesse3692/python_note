@@ -17,3 +17,13 @@ DockerCli.exe -SwitchDaemon
 ```
 
 再到后面发现如果不开机启动，等开机完成后再进行启动则不会出现以上的问题。
+
+## 安装docker-compose
+
+```shell
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+```
