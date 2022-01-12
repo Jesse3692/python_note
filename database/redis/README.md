@@ -4,7 +4,9 @@
 
 ![image-20201107214821950](https://i.loli.net/2020/11/07/UYCFEyLbHh7RK9g.png)
 
-重命名：`rename key new_key`
+- 重命名：`rename key new_key`
+
+- 设置过期时间：`expire key seconds`
 
 ### 字符串常用操作
 
