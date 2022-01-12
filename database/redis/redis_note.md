@@ -4,9 +4,11 @@
 
 ![image-20201107214821950](https://i.loli.net/2020/11/07/UYCFEyLbHh7RK9g.png)
 
+重命名：`rename key new_key`
+
 ### 字符串常用操作
 
-- 选择数据库 `select 0` 【0-15】
+- 选择数据库 `select 0` [0-15]
 
 - 赋值 `set key value`
 - 取值 `get key`
