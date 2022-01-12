@@ -33,21 +33,26 @@ scoop install aria2
 - nodejs
 - go
 - vscode
-- android-sdk
+- adb
 
 ## 添加bucket
 
 在 Scoop 里面，bucket 就是一个软件仓库。
 
 ```shell
-# 添加
-scoop bucket add extras
-
-# scoop直接识别的bucket
+# scoop直接识别并添加的bucket
 scoop bucket known
 
-
+# 添加
+scoop bucket add extras
 ```
+
+添加社区bucket
+
+```shell
+scoop bucket add <仓库名> <仓库地址>
+```
+
 
 ## 常用仓库
 
