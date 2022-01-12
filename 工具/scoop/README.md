@@ -16,7 +16,6 @@ scoop list
 scoop checkup
 
 # 安装
-
 scoop install aria2
 ```
 
@@ -50,7 +49,10 @@ scoop bucket add extras
 添加社区bucket
 
 ```shell
+# bucket的用法
 scoop bucket add <仓库名> <仓库地址>
+# bucket命令
+scoop bucket add|list|known|rm [<args>]
 ```
 
 
