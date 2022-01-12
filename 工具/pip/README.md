@@ -27,5 +27,10 @@ pip config set global.proxy 'http://127.0.0.1:7890'
 [Environment]::SetEnvironmentVariable("HTTPS_PROXY", "http://127.0.0.1:7890", 'User')
 ```
 
+## 离线下载包及其依赖
+
+```shell
+pip download -d save_path packages
+```
 
 
