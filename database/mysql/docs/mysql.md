@@ -41,7 +41,19 @@ UPDATE table SET c=c+1 WHERE a=1;
 ### 数据表
 
 - 创建数据表：create table tb_name [if not exists] (column_name data_type );
--
+
+```sql
+--- 修改字段
+ALTER TABLE `lushilin_dewallet`.`t_nft_currency`
+CHANGE COLUMN `update_time` `update_time` DATETIME  DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间' ;
+
+--- 添加字段
+ALTER TABLE `lushilin_dewallet`.`t_hot_search_list`
+ADD COLUMN `update_time` DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间' AFTER `date`;
+
+--- 更新字段
+update `t_hot_search_list` set date = '2022-01-10';
+```
 
 ### MySQL 性能优化
 
