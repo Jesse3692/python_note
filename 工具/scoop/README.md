@@ -17,6 +17,9 @@ scoop checkup
 
 # 安装
 scoop install aria2
+
+# 切换版本
+scoop reset python36
 ```
 
 ## 常用软件
