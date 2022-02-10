@@ -25,3 +25,10 @@ npm config set https-proxy null
 ```powershell
 setx /m ELECTRON_MIRROR "https://npm.taobao.org/mirrors/electron/"
 ```
+
+## 常用命令
+
+```shell
+# 查看本机已安装的全局包
+npm list -g --depth 0
+```
