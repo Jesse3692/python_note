@@ -41,3 +41,22 @@ andriod6，个人证书可以解密https信息
 使用fiddler classic抓包
 
 手机wlan设置fiddle代理
+
+## 常用命令
+
+```shell
+# 查看已安装应用列表 adb shell cmd package list packages
+adb shell pm list package # findstr.exe jingdong => package:com.jingdong.app.mall
+
+# 查看当前应用的activity
+adb shell "dumpsys window | grep mCurrentFocus"
+
+# 查看安卓系统版本
+adb shell getprop ro.build.version.release
+
+# 查看app的版本
+adb shell pm dump io.appium.settings | findstr "version"
+
+# 打开app（短信）
+com.android.mms/com.android.mms.ui.MmsTabActivity
+```
