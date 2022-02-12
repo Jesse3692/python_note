@@ -26,4 +26,14 @@
 
 ### uiautomatorviewer
 
-uiautomatorviewer是android SDK自带的工具，缺点是没法点击操作和刷新
+uiautomatorviewer 是 android SDK 自带的工具，缺点是没法点击操作和刷新
+
+## 控件定位
+
+appium 的控件定位方式是完全遵守 webdriver 的 mobile 扩展协议的。
+
+### 通过 resource id 定位
+
+- 使用`findElement(By.ID,"resourceId")`的方式。这也是原生的 `webdriver` 定义的方法，不过竟然在 appium 的官方文档里没有提及，属于隐藏技；
+
+- 使用`find_elements_by_android_uiautomator('new UiSelector().resourceId("the_id")')`的方式
