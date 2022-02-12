@@ -1,10 +1,10 @@
-# adb使用
+# adb 使用
 
 安装： `scoop install adb`
 
 ## 准备工作
 
-1. 开发者选项——USB调试
+1. 开发者选项——USB 调试
 
 2. 连接夜神模拟器：
 
@@ -32,15 +32,15 @@ adb push 源文件  目标路径
  adb install -r .\MT-mytoken-hk-release-3.2.1_mytoken_aligned_signed.apk
 ```
 
-## 网易mumu
+## 网易 mumu
 
-andriod6，个人证书可以解密https信息
+andriod6，个人证书可以解密 https 信息
 
 ## 抓包
 
-使用fiddler classic抓包
+使用 fiddler classic 抓包
 
-手机wlan设置fiddle代理
+手机 wlan 设置 fiddle 代理
 
 ## 常用命令
 
@@ -58,5 +58,11 @@ adb shell getprop ro.build.version.release
 adb shell pm dump io.appium.settings | findstr "version"
 
 # 打开app（短信）
-com.android.mms/com.android.mms.ui.MmsTabActivity
+adb shell am start -W -n com.android.mms/com.android.mms.ui.MmsTabActivity
 ```
+
+## 应用
+
+- 短信：`com.android.mms/com.android.mms.ui.MmsTabActivity`（小米）
+- 短信：`cn.nubia.mms/cn.nubia.mms.tab.MmsMainActivity`（努比亚）
+- 设置：`com.android.settings/.Settings$ApnEditorActivity`（努比亚，小米）
