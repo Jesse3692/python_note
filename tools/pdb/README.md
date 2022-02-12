@@ -22,6 +22,7 @@ info proc status -- List process info from /proc/PID/status.
 
 # 查看当前的线程
 info threads
+thread 1
 
 bt
 
@@ -58,4 +59,6 @@ py-down                 # 查看下一个frame
 
 # 打印对象大小
 (gdb) p sizeof(d)
+
+continue # 恢复执行
 ```
