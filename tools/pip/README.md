@@ -10,6 +10,7 @@ pip config list
 
 ```shell
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+# pip config set global.index-url https://pypi.python.org/simple
 ```
 
 这样就会自动添加pip配置`C:\Users\Administrator\AppData\Roaming\pip\pip.ini`
